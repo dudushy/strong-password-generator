@@ -3,30 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>template-web</title>
+  <title>strong-password-generator</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header>
     <h1>
-      <a href="https://github.com/dudushy/template-web" target="_blank">template-web</a>
+      <a href="https://github.com/dudushy/strong-password-generator" target="_blank">strong-password-generator</a>
     </h1>
   </header>
   <hr>
 
   <div>
-    <h1>Hello World!</h1>
+    <button id="generate-button" onclick="generatePassword()">
+      <img src="assets/refresh-outline.svg" id="generate-icon">
+      <span id="generate-text">GENERATE</span>
+    </button>
 
-    <button style="background-color: var(--primary)">primary</button>
-    <button style="background-color: var(--secondary)">secondary</button>
-    <button style="background-color: var(--tertiary)">tertiary</button>
-    <button style="background-color: var(--success)">success</button>
-    <button style="background-color: var(--warning)">warning</button>
-    <button style="background-color: var(--danger)">danger</button>
-    <button style="background-color: var(--dark)">dark</button>
-    <button style="background-color: var(--medium)">medium</button>
-    <button style="background-color: var(--light)">light</button>
+    <h2 id="password-text"></h2>
   </div>
 
   <hr>
