@@ -27,3 +27,33 @@ a {
 span#heart {
   color: var(--danger);
 }
+
+#generate-button {
+  padding: 1em;
+  text-align: center;
+  background-color: var(--success);
+  opacity: .5;
+  border-radius: 10px;
+}
+#generate-button:hover {
+  opacity: .8;
+}
+#generate-button:active {
+  opacity: 1;
+}
+
+#generate-icon {
+  float: left;
+  height: 2em;
+  width: 2em;
+}
+
+#generate-text {
+  margin-bottom: -20px;
+  padding-left: .7em;
+  font-weight: bolder;
+}
+
+#password-text {
+  color: var(--warning);
+}
