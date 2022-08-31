@@ -1,2 +1,2 @@
-# [template-web](https://github.com/dudushy/template-web/)
-Template for Web projects.
+# [strong-password-generator](https://github.com/dudushy/strong-password-generator/)
+Generate Strong Random Passwords (18 characters).
