@@ -56,4 +56,9 @@ span#heart {
 
 #password-text {
   color: var(--warning);
+  border: 2px dashed var(--warning);
+  margin-inline: 3em;
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #ffc60927;
 }
